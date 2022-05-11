@@ -17,4 +17,7 @@ header{
 .container{
     height: 3444px;
     background-color: brown;
+    /* In order to use z index property, position: static will not work */
+    position: relative;
+    z-index: 2;
 }
