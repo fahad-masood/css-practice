@@ -10,4 +10,11 @@ header{
     background-color: black;
     color: white;
     padding: 15px;
+    position: sticky;
+    /* Position at which it is sticking is top:0 */
+    top: 0; 
+}
+.container{
+    height: 3444px;
+    background-color: brown;
 }
