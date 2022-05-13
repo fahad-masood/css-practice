@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    height: 50px;
+}
+header{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    /* padding: 2px; */
+    margin: 10px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.left{
+    height: 70vh;
+    width: 40vh;
+    background-color: red;
+}
+.right{
+    height: 70vh;
+    width: 40vh;
+    background-color: green;
+}
